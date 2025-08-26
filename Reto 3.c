@@ -2,7 +2,7 @@
  * Fecha: 26 de Agosto 2025
  * Autor: Alejandro Lopez
  * Materia: Sistemas Operativos
- * Tema: Reto 02!!!!
+ * Tema: Reto 03!!!!
 *************************************************************************************/
 #include <stdio.h>
 #include <string.h>
