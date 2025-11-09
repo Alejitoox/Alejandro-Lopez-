@@ -1,6 +1,6 @@
 /****************************************************************************************
 * Fecha: 03-Nov-2025
-* Autor: David Calderon y Alejandro Lopez
+* Autor: Alejandro Lopez - David Calderon 
 * Materia: Sistemas Operativos
 * Tema: Taller de Evaluación de Rendimiento
 * Fichero: Módulo de implementación para mmClasicaPosix
