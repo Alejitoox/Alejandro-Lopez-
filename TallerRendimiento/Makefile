@@ -1,6 +1,6 @@
 #**************************************************************
 #         		Pontificia Universidad Javeriana
-#     Autor: David Calderon y Alejandro Lopez
+#     Autor: Alejandro Lopez - David Calderon 
 #     Fecha: 03-Nov-2025
 #     Materia: Sistemas Operativos
 #     Tema: Taller de Evaluación de Rendimiento
