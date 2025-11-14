@@ -1,3 +1,19 @@
+/*****************************************************
+* Pontificia Universidad Javeriana
+* Autores: Alejandro Lopez Beltran - David Calderon Idarraga
+* Fecha: 13/11/2025
+* Materia: Sistemas Operativos
+* Tema: Productor–Consumidor usando hilos, mutex y variables de condición (pthread)
+* Descripción:
+* - Implementación del problema clásico Productor–Consumidor mediante:
+*       * Hilos POSIX (pthread_create, pthread_join)
+*       * Exclusión mutua con pthread_mutex_t
+*       * Sincronización con pthread_cond_t (wait / signal)
+* - Usa un buffer circular de tamaño N compartido entre productor y consumidor.
+* - Controla condiciones de buffer lleno y buffer vacío evitando condiciones de carrera.
+*****************************************************/
+
+
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
