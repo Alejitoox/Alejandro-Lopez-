@@ -1,3 +1,18 @@
+/*****************************************************
+* Pontificia Universidad Javeriana
+* Autores: Alejandro Lopez Beltran - David Calderon Idarraga
+* Fecha: 13/11/2025
+* Materia: Sistemas Operativos
+* Tema: Productor con memoria compartida y semáforos
+* Descripción:
+* - Implementación del proceso productor usando:
+*       * Memoria compartida POSIX (shm_open, mmap)
+*       * Semáforos POSIX (sem_open, sem_wait, sem_post)
+* - El usuario ingresa mensajes que se almacenan en un 
+*   buffer circular compartido con el consumidor.
+* - Controla concurrencia mediante vacio, lleno y mutex.
+*****************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
