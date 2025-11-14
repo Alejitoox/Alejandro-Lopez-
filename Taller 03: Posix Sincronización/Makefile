@@ -1,3 +1,17 @@
+#############################################################
+# Pontificia Universidad Javeriana
+# Autores: Alejandro Lopez Beltran - David Calderon Idarraga
+# Fecha: 13/11/2025
+# Materia: Sistemas Operativos
+# Tema: Makefile para compilación de Productor, Consumidor y posixSincro
+# Descripción:
+# - Automatiza la compilación de los programas:
+#       * producer.c  (memoria compartida + semáforos POSIX)
+#       * consumer.c  (memoria compartida + semáforos POSIX)
+#       * posixSincro.c (sincronización con hilos pthread)
+# - Incluye reglas para compilar, enlazar y limpiar ejecutables.
+#############################################################
+
 # Opciones del compilador
 CC = gcc
 # Flags para C, -g para debug, -Wall para warnings
